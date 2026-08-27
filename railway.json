@@ -1,7 +1,0 @@
-{
-  "deploy": {
-    "numReplicas": 1,
-    "startCommand": "python -u bot.py",
-    "restartPolicyType": "ON_FAILURE"
-  }
-}

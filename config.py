@@ -5,9 +5,9 @@
 from __future__ import annotations
 
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
+
+
 
 BOT_TOKEN: str = os.getenv("BOT_TOKEN", "")
 # /version покажет это значение. Можно переопределить BOT_VERSION в Railway.
